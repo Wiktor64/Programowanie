@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Strona na ocene</title>
+    <style>
+      
+         
+        header {
+            background-color: #b3b3b3;padding: 20px;text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Polskie góry</h1>
+        <h3>Poznaj najwyższe i najpiękniejsze pasma w Polsce</h3>
+        <p>Autor: <em>Wiktor D</em></p>
+    </header>
+    <main>
+        <h4>Najważniejsze pasa górskie</h4>
+
+        <h5>Tatry</h5>
+        <p>Tatry to najwyższe góry w Polsce, część Karpat.<br />
+           – Rysy – najwyżzy szczyt Polski<br />
+           – Morskie Oko – popularne jezioro górskie</p>
+
+        <h5>Beskidy</h5>
+        <p>Beskidy to rozległe pasma górskie o średniej wysokości.<br />
+           – Babia Góra – zwana „Królową Beskidów”<br />
+           – Pieniny – malownice przełomy Dunajca</p>
+
+        <h5>Sudety</h5>
+        <p>Sudety leżą na południowym zachodzie Polski.<br />
+           – Śnieżka – najwyższy szczyt Karkonoszy<br />
+           – Góry Stołowe – unialne formy skalne</p>
+
+        <h5>Góry Świętokrzyskie</h5>
+        <p>To najstarsze góry w Polsce o łagdnych wzniesieniach.<br />
+           – Łysica – najwyższy szczyt<br />
+           – Święty Krzyż – miejsc historyczne</p>
+
+        <h5>Bieszczady</h5>
+        <p>Bieszczady slyną z dzikej przyrody i rozległych połonin.<br />
+           – Tarnica – najwyszy szczyt Biezczad<br />
+           – Połoniny – świetne zlaki piesze i widoki</p>
+
+           <hr>
+           <h2>Dlaczego warto odwiedzać polskie góry</h2>
+           <p>->piekne krajobrazy i widoki,</p>
+           <p>->możliwość pierwszych wędrówek i aktywnego wypocznyku</p>
+           <p>->bogata flora i fauma </p>
+           <p>>miejsca chistoryczne i kulturowe</p>
+           <p> ->sporty w Tatrach i Sudetach</p>
+            <hr>
+
+            <h2>Góry świetokrzyskie</h2>
+            <p><h3>Góry Świętokrzyskie</h3> to najstarsze pasmo górskie w Polsce, charakteryzujące się łagodnymi wzniesieniami i malowniczym krajobrazem. Znajdują się tu liczne lasy, skałki i rezerwaty przyrody, które chronią unikalną florę i faunę regionu.
+Najwyższym szczytem jest Łysica, osiągająca 612 m n.p.m., a wśród ciekawych miejsc historycznych wyróżnia się Święty Krzyż - zespół klasztorny i sanktuarium, które przyciąga turystów i pielgrzymów.
+Góry Świętokrzyskie oferują wiele łatwych szlaków turystycznych, idealnych dla początkujących wędrowców i rodzin z dziećmi. W regionie można również podziwiać formacje skalne, takie jak Kadzielnia czy Ślichowice, które są popularnym celem krótkich wycieczek.
+Dodatkowo w okolicach gór znajdują się liczne zabytkowe miasteczka i skanseny, które pozwalają poznać tradycje i historię regionu.</p>
+    </main>
+    <hr> 
+    
+    <header>
+        <h1>CopyRight &copy;</h1> 
+        
+    </header>
+
+    
+</body>
+</html>
