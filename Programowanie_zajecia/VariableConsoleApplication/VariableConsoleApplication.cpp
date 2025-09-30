@@ -1,14 +1,14 @@
-// VariableConsoleApplication.cpp : This file contains the 'main' function. Program execution begins and ends there.
+ï»¿// VariableConsoleApplication.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+//Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
 // Tips for Getting Started: #include <iostream>
 
-//Napisz program który wczyta liczbê od u¿ytkownika i j¹ wyœwietli na konsoli
+//Napisz program ktÃ³ry wczyta liczbÄ™ od uÅ¼ytkownika i jÄ… wyÅ›wietli na konsoli
 void task1()
 {
 	//1
@@ -22,42 +22,91 @@ void task1()
 }
 void task2()
 {
+	int firstNumber, secondNumber;
+	std::cout << "Podaj pierwsza liczbe:\n";
+	std::cin >> firstNumber;
+	std::cout << "Podaj druga liczbe:\n";
+	std::cin >> secondNumber;
 
+	int avg;
 
+	avg = (firstNumber + secondNumber) / 2;
+	std::cout << "wynik sredniej" << avg << "\n";
+}
+//program obliczajacy pole prostokata
+
+void task3()
+{
+	int firstSide, secondSide;
+	std::cout << "Podaj dlugosc boku a:\n";
+	std::cin >> firstSide;
+	std::cout << "Podaj dlugosc boku b:\n";
+	std::cin >> secondSide;
+
+	int area;
+
+	area = firstSide * secondSide;
+	std::cout << "Pole prostokata: " << area << "\n";
+}
+//Program obliczajÄ…cy pole koÅ‚a.
+void task4()
+
+{
+	float r;
+	std::cout << "Podaj R :\n";
+	std::cin >> r;
+	float area;
+
+	area = r * 2 * 3.14;
+	std::cout << "Pole koÅ‚a : " << area << "\n";
 }
 
+
+void task5()
+// Program obliczajÄ…cy objÄ™toÅ›Ä‡ stoÅ¼ka.
+{
+	float h;
+	std::cout << "Podaj H: \n";
+	std::cin >> h;
+	float r;
+	std::cout << "Podaj R: \n";
+	std::cin >> r;
+	float v;
+	v = (3.14 / 3) * (r * r) * h;
+	std::cout << "Objetosc stozka: " << v << "\n";
+}
 int main()
 {
-	task2();
+	task5();
 }
 
 
 /*
 
-Zmienna - pewien obszar w pamiêci operacyjnej, w której mo¿na
-w danej chwili przechowaæ tylko jedn¹ dan¹.
+Zmienna - pewien obszar w pamiÄ™ci operacyjnej, w ktÃ³rej moÅ¼na
+w danej chwili przechowaÄ‡ tylko jednÄ… danÄ….
 
 Instrukcja daklaracji zmiennej:
 typ_zmienej nazwaZmiennej;
 
-Typ zmiennej - wielkoœæ obszaru pamiêci, interpretacja ci¹gu bitów
+Typ zmiennej - wielkoÅ›Ä‡ obszaru pamiÄ™ci, interpretacja ciÄ…gu bitÃ³w
 
-int - 4 bajtowa liczba ca³kowita ze znakiem <-2 147 483 648, 2 147 483 647>
+int - 4 bajtowa liczba caÅ‚kowita ze znakiem <-2 147 483 648, 2 147 483 647>
 
-Nazwa zmiennej - nazwa obszaru w pamiêci, identyfikator
-Warunki niezbêdne:
+Nazwa zmiennej - nazwa obszaru w pamiÄ™ci, identyfikator
+Warunki niezbÄ™dne:
 * dozwolone znaki:
 	- alfabet angielski aA-zZ
 	- cyfry arabskie 0-9
-	- podkreœlenie (pod³oga) _
-* pierwszym znakiem nie mo¿e byæ cyfra
-* unikalny w swoim zakresie widocznoœci
-* nie mo¿e to byæ s³owo kluczowe (zarezerwowane) danego jêzyka
+	- podkreÅ›lenie (podÅ‚oga) _
+* pierwszym znakiem nie moÅ¼e byÄ‡ cyfra
+* unikalny w swoim zakresie widocznoÅ›ci
+* nie moÅ¼e to byÄ‡ sÅ‚owo kluczowe (zarezerwowane) danego jÄ™zyka
 
-Warunki programistów:
-* nazwa zmiennej powinna oddawaæ charakter przechowywanych danych
-* jeœli wiele s³ów to w miejscu spacji podkreœlenie lub zaczynaj¹c od drugiego
-  s³owa piszemy je z du¿ej litery
+Warunki programistÃ³w:
+* nazwa zmiennej powinna oddawaÄ‡ charakter przechowywanych danych
+* jeÅ›li wiele sÅ‚Ã³w to w miejscu spacji podkreÅ›lenie lub zaczynajÄ…c od drugiego
+  sÅ‚owa piszemy je z duÅ¼ej litery
 * piszemy po angielsku
 */
 //   1. Use the Solution Explorer window to add/manage files
