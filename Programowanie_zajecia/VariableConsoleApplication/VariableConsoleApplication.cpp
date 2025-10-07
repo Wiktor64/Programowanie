@@ -20,6 +20,7 @@ void task1()
 	//4
 	std::cout << "Podales " << numberFromUser << "\n";
 }
+
 void task2()
 {
 	int firstNumber, secondNumber;
@@ -48,6 +49,7 @@ void task3()
 	area = firstSide * secondSide;
 	std::cout << "Pole prostokata: " << area << "\n";
 }
+
 //Program obliczający pole koła.
 void task4()
 
@@ -60,6 +62,7 @@ void task4()
 	area = r * 2 * 3.14;
 	std::cout << "Pole koła : " << area << "\n";
 }
+
 
 
 void task5()
@@ -75,6 +78,7 @@ void task5()
 	v = (3.14 / 3) * (r * r) * h;
 	std::cout << "Objetosc stozka: " << v << "\n";
 }
+
 //* .Program obliczający pole trójkąta o podstawie b i wysokości h
 void task6()
 {
@@ -88,6 +92,7 @@ void task6()
 	wynik = a * a + b * b;
 	std::cout << "Wynik dzialania a^a + b^b wynosi :" << wynik;
 }
+
 //. Program obliczający pole trójkąta o podstawie b i wysokości h
 void task7()
 {
@@ -113,6 +118,7 @@ void task8()
 	v = 4.0 / 3.0 * 3.14 * (r * r * r);
 	std::cout << "Wynik objętości koła wynosi:" << v;
 }
+
 ///* .Program obliczający pole trapezu o podstawach a i b oraz wysokości h
 void task9()
 {
@@ -129,6 +135,7 @@ void task9()
 	w = ((a + b) * h) / 2;
 	std::cout << "Wynik pola trapezu wynosi:" << w;
 }
+
 //* .Program obliczający średnią ważoną trzech liczb z podanymi odpowiednimi wagami w1, w2 i w3.
 void task10()
 {
@@ -157,6 +164,7 @@ void task10()
 	w = (l1 * w1 + l2 * w2 + l3 * w3) / sumaWag;
 	std::cout << "Wynik średniej ważonej to :" << w;
 }
+
 void task11()
 {
 	int m, cm, mm;
@@ -167,7 +175,6 @@ void task11()
 
 	std::cout << "Twoje metry w centymetrach   :" << cm << "\nTwoje metry w milimetrach   :" << mm;
 }
-
 
 void task12()
 {
